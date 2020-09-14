@@ -1,0 +1,425 @@
+body    {
+        margin: 0;
+        }
+
+.wrapper {
+        width: 1400px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        padding: 0;
+        }
+
+.header {
+        width: 100%;
+        height: 70px;
+        background: #000000;
+}
+
+.container {
+        display: inline-block;
+        width: 78.5%;
+        height: 100%;
+        margin: 0 auto;
+        }
+
+.container-prototypes { 
+        padding-left: 150px;
+        width: 520px;
+        height: 500px;
+        }
+
+.header-logo {
+        display: block;
+        width: 79px;
+        height: 27px;
+        padding: 21px 0 0 10px;
+        }
+
+.header-menu {
+        position: absolute;
+        display: inline-block;
+        font-size: 14px;
+        height: 15px;
+        width: 440px;
+        left: 694px;
+        top: 29px; 
+}
+
+.header-menu__list {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .header-menu__item {
+        display: inline-block;
+        margin-right: 43px;
+    }
+
+    .header-menu__item-last {
+        display: inline-block;
+        margin-right: 0;
+    }
+    
+    .header-menu__link {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: rgba(255,255,255, 0.5);
+        text-decoration: none;
+        }
+
+.section-prototypes {
+        position: relative;
+        display: inline-block;
+        height: 640px;
+        width: 100%;
+        background: url("../img/city-streets.png") no-repeat #000000;
+        text-align: left;
+        }
+
+.prototypes-logo {
+        display: inline-block;
+        width: 175px;
+        height: 60px;
+        padding-top: 110px;
+        }
+
+.download-btn {
+        background-color: transparent;
+        border: 2px solid #FFFFFF;
+        color: #FFFFFF;
+        padding: 9px 29px 9px 29px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        outline: 0;
+        }
+
+.prototype-btn {
+        margin-top: 59px;
+        }
+
+.trial__form {
+        position: absolute;
+        margin-left: 734px;
+        margin-top: 140px;
+        width: 374px;
+        height: 368px;
+        text-align: center;
+        background-color: #FFFFFF;
+        border-radius: 5px;        
+        }
+    
+.trial__form--title {
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        background: #F5F5F5;
+        height: 54px;
+        line-height: 54px;
+        border-radius: 5px 5px 0 0;
+        }
+    
+.trial__form--orangetitle {
+        text-transform: uppercase;
+        color: #FF8B38;
+        }
+
+.trial__form--input-box {
+        height: 260px;
+        }
+
+.trial__form--input {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #BDBDBD;
+        width: 285px;
+        height: 31px;
+        margin-top: 10%;
+        border: none;
+        border-bottom-style: solid ;
+        border-bottom-color: BDBDBD;
+        border-bottom-width: 1px;
+        }
+
+.trial__form--btn {
+        border: none;
+        color: #FFFFFF;
+        background-color: #FF8B38;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        outline: 0;
+        width: 100%;
+        height: 54px;
+        line-height: 54px;
+        border-radius: 0 0 5px 5px;
+        }
+
+.section-social-media {
+        display: inline-block;
+        position: relative;
+        height: 106px;
+        width: 100%;
+        border-top-style: solid;
+        border-top-color: #BDBDBD;
+        border-top-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: #BDBDBD;
+        border-bottom-width: 2px;
+        }
+
+.title {
+        margin-top: 14px;
+        margin-bottom: 12px;
+        color: #333333;
+        font-weight: bold;
+        }
+
+.no-margin {
+        margin: 0;
+        }
+
+.social-text-box {
+        width: 360px;
+        height: 32px;
+        }
+
+.social-networks  {
+        position: absolute;
+        width: 634px;
+        height: 46px;
+        margin-left: 449px;
+        top: 30px;
+        }
+        
+.social-link {
+        background: url("../img/social-networks-icons-big.png") no-repeat ;
+        height: 46px;
+        width: 50px;
+        display: inline-block;
+        margin-right: 19px;
+        margin-left: 18px; 
+        }
+
+.section-tabs {
+        width: 100%;
+        height: 596px;
+        background: #F5F5F5;
+        display: inline-block;
+        position: relative;
+        }
+
+.section-tabs__box {
+        width: 112px;
+        height: 336px;
+        background-color: #333333;
+        border: none;
+        color: #FFFFFF;
+        position: absolute;
+        top: 148px;
+        left: 142px;
+        line-height: 112px;
+        vertical-align: middle;
+        }
+
+.section-tabs__box--item {
+        display: inline-block;
+        width: 100%;
+        height: 110px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #C7C7C7;
+        font-weight: bold;
+        font-size: 15px;
+}
+        
+
+.section-tabs__img {
+        position: absolute;
+        width: 320px;
+        height: 253px;
+        right: 149px;
+        top: 172px;
+        }
+
+.section-tabs__text {
+        position: absolute;
+        height: 330px;
+        width: 477px;
+        left: 353px;
+        top: 156px;
+        }
+
+.section-tabs__text-box {
+        width: 100%;
+        height: 133px;
+        margin: 51px 0;
+        }
+
+.section-tabs__btn {
+        background-color: #FF8B38;
+        color: #FFFFFF;
+        border: 2px solid #FF8B38;
+        border-radius: 4px;
+        padding: 9px 29px 9px 29px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 15px; 
+        outline: 0;
+        }
+
+.section-design {
+        width: 100%;
+        height: 593px;
+        }
+
+
+h1,h2  {
+        color: #212121;
+        font-size: 36px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        margin: 0;
+        padding: 107px 0 0 0;
+        text-transform: uppercase;
+        }
+
+.divider {
+        margin: 30px auto;
+        display: inline-block;
+        border: none; /* Убираем границу */
+        background-color: #FF8C2D; /* Цвет линии */
+        height: 2px; /* Толщина линии */
+        width: 64px;
+        }
+
+h3      {
+        height: 14px;
+        color: #86878B;
+        font-size: 14px;
+        font-weight: 400;
+        } 
+
+h4      {
+        color: #333333;
+        font-weight: bold;
+        font-size: 20px;
+        height: 21px;
+        }
+
+p       {
+        color: #86878B;
+        font-size: 14px;
+        font-weight: 400;
+        width: 350px;
+        height: 52px;    
+        }
+
+.icons-block {
+        padding: 66px 0 0 0;
+        font-size: 0px;
+        /* margin: 0; */
+        }
+
+.icons  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+
+.box    {
+        font-size: 20px;
+        display: inline-block;
+        width: 350px;
+        height: 197px;
+        /* margin: 0; */
+        background-color: #FFFFFF;
+        }
+
+.circle { /* рисуем круг вокруг картинки */
+        margin: auto;
+        width: 70px;
+        height: 70px;
+        border: 2px solid #FF8C2D;
+        border-radius: 50%;
+        position: relative;
+        }
+
+.section-axure {
+        height: 320px;
+        width: 1400px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        background: url("../img/usa-street.png") no-repeat; 
+        background-size: cover;
+        position: relative;
+        }
+
+.background-dark {
+        position: relative;
+        background: rgba(0,0,0, 0.5);
+        width: 100%;
+        height:100%;
+        }
+
+.subtitle  {
+        color: #FFFFFF;
+        padding: 76px 0 0 0;
+        }
+
+.white {
+        background-color: #FFFFFF;
+        }
+
+.left {
+        text-align: left;
+}
+
+.some-text {
+        color: rgba(255,255,255, 0.6);
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        padding: 0 0 13px 0;
+        }
+
+footer  {
+        width: 1400px;
+        height: 100px;
+        background: #000000 no-repeat;
+        color: rgba(255,255,255, 0.5019607843137255); /* делаем текст прозрачным */
+        text-align: center;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        }
+
+.footer-link {
+        background: url("../img/social-networks-icons.png") no-repeat;
+        height: 23px;
+        width: 26px;
+        display: inline-block;
+        margin-top: 39px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        margin-left: 10px; 
+        }
+
+/* рисуем иконки на ссылках с помощью спрайта */
+.footer-link.facebook { background-position: left top; }
+.footer-link.twitter { background-position: -42px top; }
+.footer-link.gplus { background-position: -95px top; }
+.footer-link.pinterest { background-position: -140px top; }
+.footer-link.instagram { background-position: -190px top; }
+.footer-link.stumbleupon { background-position: -242px top; }
+.footer-link.rss { background-position: -294px top; }
+
+/* рисуем иконки на ссылках с помощью спрайта */
+.social-link.facebook { background-position: left top; }
+.social-link.twitter { background-position: -86px top; }
+.social-link.gplus { background-position: -190px top; }
+.social-link.pinterest { background-position: -280px top; }
+.social-link.instagram { background-position: -380px top; }
+.social-link.stumbleupon { background-position: -486px top; }
+.social-link.rss { background-position: -588px top; }
