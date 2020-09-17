@@ -206,7 +206,6 @@ body    {
         width: 100%;
         height: 596px;
         background: #F5F5F5;
-        display: inline-block;
         position: relative;
         }
 
@@ -220,7 +219,6 @@ body    {
         top: 148px;
         left: 142px;
         line-height: 112px;
-        vertical-align: middle;
         }
 
 .section-tabs__box--item {
@@ -347,6 +345,103 @@ p       {
         position: relative;
         }
 
+.prices-box {
+        height: 593px;
+        }
+
+.section-prices {
+        height: 884px;
+        width: 100%;
+        display: inline-block;
+        position: relative;
+
+        }
+
+.section-prices__tab {
+        width: 343px;
+        height: 462px;
+        display: inline-block;
+        margin-top: 101px;
+        margin-right: 40px;
+        background-color: #333333;
+        color: #FFFFFF;
+
+        }
+
+.big-tab {
+        margin-top: 66px;
+        height: 497px;
+        /* position: absolute;         */
+        }
+
+.section-prices__tab--title {
+        width: 343px;
+        height: 59px;
+        line-height: 59px;
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: solid 1px #F5F5F5;
+        }
+
+.section-prices__tab--price {
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        border-bottom: solid 1px #F5F5F5;
+        }
+
+.price0 {
+        background: url(../img/price0.png) no-repeat bottom;
+        }
+
+.price19 {
+        background: url(../img/price19.png) no-repeat bottom;
+        }
+
+.price70 {
+        background: url(../img/price70.png) no-repeat bottom;
+        }
+
+.section-prices__tab--period {
+        height: 51px;
+        line-height: 51px;
+        font-size: 14px;
+        font-weight: 600;
+        font-style: italic;
+        opacity: 0.5;
+        border-bottom: solid 1px #F5F5F5;
+        }
+
+.section-prices__tab--orange-block {
+        height: 5px;
+        background-color: #FF8B38;
+        }
+
+.orange-block-big {
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        }
+
+.section-prices__tab--description-block      {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+
+.section-prices__tab--description {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        background-color: #FFFFFF;
+        border-bottom: solid 1px #F5F5F5;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #86878B;
+        }
+
 .section-axure {
         height: 320px;
         width: 1400px;
@@ -384,6 +479,67 @@ p       {
         font-size: 16px;
         padding: 0 0 13px 0;
         }
+
+.section-contacts {
+        height: 613px;
+        }
+
+.contact-box {
+        width: 1126px;
+        height: 302px;
+        margin: 80px auto 0;
+        padding: 0;
+        background-color: aquamarine;
+        overflow: hidden;
+        }
+
+.contact__form {
+        background-color: #FFFFFF;
+        }
+
+.contact__form--input-box {
+        margin: 0 1px 0 1px;
+        padding: 0;
+        width: 558px;
+        height: 154px;
+        display: inline-block;
+        }
+
+.contact__form--input {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #CFCFCF;
+        width: 527px;
+        height: 31px;
+        margin-top: 30px;
+        border: none;
+        border-bottom-style: solid ;
+        border-bottom-color: #D6D6D6;
+        border-bottom-width: 1px;
+        text-align: left;
+        }
+
+#message {
+        background-color: blue  ;
+        height: 154px;
+        width: 526px;
+        }
+
+.contact__form--btn {
+        border: none;
+        margin-top: 43px;
+        color: #FFFFFF;
+        background-color: #FF9B51;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        outline: 0;
+        width: 148px;
+        height: 46px;
+        line-height: 46px;
+        border-radius: 5px;
+        }
+            
 
 footer  {
         width: 1400px;
