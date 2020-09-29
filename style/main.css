@@ -449,19 +449,52 @@ p       {
         }
 
 .customer-tab {
+        display: inline-block;
         margin-top: 0px;
         margin-bottom: 99px;
         width: 273px;
         height: 100%;
-        background-color: green;
+        background-color: #FFFFFF;
+        text-align: left;
         }
 
 .customer-tab--testimonial {
-        margin: 0 auto;
+        margin: 0;
         padding: 24px 13px;
         width: 248px;
         height: auto;
         background-color: #F5F5F5;
+        color: #86878B;
+        text-align: left;
+        font-size: 14px;
+        }
+
+.customer-tab--testimonial-triangle {
+        margin-left: 44px;
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 15px solid #F5F5F5;
+        }
+
+.customer-tab--photo {
+        margin: 10px 15px 0 22px;
+        }
+
+.customer-tab--photo-description {
+        display: inline-block;
+        position: relative;
+        top: -15px;
+        }
+
+.customer-tab--photo-name {
+        color: #333333;
+        font-size: 20px;
+        font-weight: bold;
+        }
+
+.customer-tab--photo-occupation {
         color: #86878B;
         font-size: 14px;
         }
