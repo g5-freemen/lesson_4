@@ -276,7 +276,6 @@ body    {
         height: 593px;
         }
 
-
 h1,h2  {
         color: #212121;
         font-size: 36px;
@@ -368,7 +367,6 @@ p       {
         margin-right: 40px;
         background-color: #333333;
         color: #FFFFFF;
-
         }
 
 .big-tab {
@@ -442,6 +440,30 @@ p       {
         text-transform: uppercase;
         font-size: 14px;
         color: #86878B;
+        }
+
+.customer-box {
+        display: inline-block;
+        margin-top: 50px;
+        height: 280px;
+        }
+
+.customer-tab {
+        margin-top: 0px;
+        margin-bottom: 99px;
+        width: 273px;
+        height: 100%;
+        background-color: green;
+        }
+
+.customer-tab--testimonial {
+        margin: 0 auto;
+        padding: 24px 13px;
+        width: 248px;
+        height: auto;
+        background-color: #F5F5F5;
+        color: #86878B;
+        font-size: 14px;
         }
 
 .section-axure {
