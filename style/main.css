@@ -4,6 +4,7 @@ body    {
 
 .wrapper {
         width: 1400px;
+        margin: 0 auto;
         text-align: center;
         font-family: 'Open Sans', sans-serif;
         padding: 0;
@@ -320,7 +321,6 @@ p       {
 .icons-block {
         padding: 66px 0 0 0;
         font-size: 0px;
-        /* margin: 0; */
         }
 
 .icons  {
@@ -538,15 +538,14 @@ p       {
         }
 
 .section-contacts {
-        height: 613px;
+        height: 633px;
         }
 
 .contact-box {
         width: 1126px;
         height: 302px;
-        margin: 80px auto 0;
+        margin: 40px auto 0;
         padding: 0;
-        background-color: aquamarine;
         overflow: hidden;
         }
 
@@ -555,14 +554,14 @@ p       {
         }
 
 .contact__form--input-box {
+        display: inline-block;
         margin: 0 1px 0 1px;
         padding: 0;
         width: 558px;
         height: 154px;
-        display: inline-block;
         }
 
-.contact__form--input {
+.contact__form--input, .contact__form--input-area {
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
         color: #CFCFCF;
@@ -576,10 +575,10 @@ p       {
         text-align: left;
         }
 
-#message {
-        background-color: blue  ;
+.contact__form--input-area {
+        position: relative;
+        top: 11px;
         height: 154px;
-        width: 526px;
         }
 
 .contact__form--btn {
@@ -596,7 +595,6 @@ p       {
         line-height: 46px;
         border-radius: 5px;
         }
-            
 
 footer  {
         width: 1400px;
